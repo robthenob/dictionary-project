@@ -4,7 +4,7 @@
 
 .App-header {
   background-color: white;
-  min-height: 100vh;
+  font-size: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,4 +15,5 @@
 
 .App-footer {
   color: grey;
+  margin: 30px;
 }
