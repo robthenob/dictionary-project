@@ -1,7 +1,15 @@
-p {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.Dictionary section {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px 0px;
+}
+.Dictionary input {
+  width: 60%;
+}
+
+.Dictionary h2 {
   font-size: 20px;
-  color: black;
+  font-weight: bold;
 }
