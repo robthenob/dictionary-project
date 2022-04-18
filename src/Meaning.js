@@ -9,18 +9,18 @@ export default function Meaning(props) {
         return (
           <div key={index}>
             <h4>Definition:</h4>
-            <p>
+            <div>
               {definition.definition}
               <br />
-            </p>
+            </div>
             <h4>Example:</h4>
-            <p>
+            <div>
               <em>{definition.example}</em>
-            </p>
+            </div>
             <h4>Synonyms</h4>
-            <p>
+            <div>
               <Synonyms synonyms={definition.synonyms} />
-            </p>
+            </div>
           </div>
         );
       })}
